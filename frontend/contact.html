@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__logo">Airlines Booking</div>
+        <ul class="nav__links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Offers</a></li>
+            <li class="link"><a href="#">Seats</a></li>
+            <li class="link"><a href="#">Destinations</a></li>
+        </ul>
+        <button class="btn" onclick="window.location.href='contact.html'">Contact</button>
+    </nav>
+    <header class="section__container header__container">
+        <h1 class="section__header">Contact Us</h1>
+        <p>We are here to assist you with your travel plans. Please reach out to us through any of the channels below.
+        </p>
+    </header>
+
+    <section class="section__container contact__container">
+        <div class="contact__details">
+            <div class="contact__info">
+                <span><i class="ri-phone-line"></i></span>
+                <h4>Call Us</h4>
+                <p>+123-456-7890</p>
+            </div>
+            <div class="contact__info">
+                <span><i class="ri-mail-line"></i></span>
+                <h4>Email Us</h4>
+                <p>support@airlinesbooking.com</p>
+            </div>
+            <div class="contact__info">
+                <span><i class="ri-map-pin-line"></i></span>
+                <h4>Visit Us</h4>
+                <p>123 Aviation St, Airville</p>
+            </div>
+        </div>
+
+        <form class="contact__form">
+            <div class="form__group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form__group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form__group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="section__container footer__container">
+        <div class="footer__grid">
+            <div class="footer__content">
+                <h4>Book A Flight</h4>
+                <p>Flights</p>
+                <p>Hotels</p>
+                <p>Car Hire</p>
+                <p>Hotel + Car</p>
+                <p>Holiday Deals</p>
+            </div>
+            <div class="footer__content">
+                <h4>Booking Support</h4>
+                <p>Manage My Booking</p>
+                <p>Customer Support</p>
+                <p>Special Assistance</p>
+                <p>FAQs</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer__content">
+                <h4>About Us</h4>
+                <p>About Our Airline</p>
+                <p>News & Press</p>
+                <p>Corporate Information</p>
+                <p>Careers</p>
+                <p>Partner with Us</p>
+            </div>
+            <div class="footer__content">
+                <h4>Social Media</h4>
+                <div class="social__icons">
+                    <span><i class="ri-facebook-circle-line"></i></span>
+                    <span><i class="ri-instagram-line"></i></span>
+                    <span><i class="ri-linkedin-box-line"></i></span>
+                    <span><i class="ri-twitter-line"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
